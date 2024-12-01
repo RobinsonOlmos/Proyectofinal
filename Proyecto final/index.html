@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emisora Navideña</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#galeria">Galería Navideña</a></li>
+                <li><a href="#canciones">playlist Navideña</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="countdown" class="contador">
+            <h2>Cuenta Regresiva para Navidad 🎅</h2>
+            <p id="timer"></p>
+        </div> 
+        <h1 class="h1">🎄 Bienvenidos a la Emisora Navideña 🎶</h1>
+    </header>
+    
+    <section id="recetario">
+        <h2>Recetario Navideño</h2>
+        <p>Descarga nuestro catálogo con las mejores recetas navideñas:</p>
+        <a href="recetario/recetario.pdf" download>Descargar Recetario 🎁</a>
+    </section>
+    
+    <section id="inicio">
+        <h2>¡Siente la magia de la Navidad!</h2>
+        <p>Disfruta de música, recetas y mucho más.</p>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería Navideña</h2>
+        <div class="gallery">
+            <img src="img/arbol de navida.jpg" alt="Árbol de Navidad">
+            <img src="img/familia navideña.jpg" alt="regalos de navidad">
+            <img src="img/Pesebre-2.jpg" alt="">
+            <img src="img/regalos de navidad1.jpg" alt="">
+            <img src="img/regalos de navidad.jpeg" alt="">
+            <img src="img/regalos de navidad.jpeg" alt="">
+            <img src="img/regalos de navidad.jpeg" alt="">
+            <img src="img/regalos de navidad.jpeg" alt="">
+        </div>
+    </section>
+<section id="canciones">
+<h2>Christmas playlist</h2>
+<div class="music">
+    <audio src="playlist/Michel Teló - Arbolito de Navidad.mp3">Michel Teló - Arbolito de Navidad.mp3</audio>
+    <audio src="playlist/Oscarcito - Llegó la Navidad.mp3">Oscarcito - Llegó la Navidad.mp3</audio>
+    <audio src="playlist"></audio>
+    <audio src="playlist"></audio>
+</div>
+</section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Emisora Navideña. Todos los derechos reservados.</p>
+          </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

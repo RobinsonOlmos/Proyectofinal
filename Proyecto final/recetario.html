@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetario Navideño</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #004d00, #009900);
+            color: #fff;
+        }
+
+        header {
+            background-color: #033003;
+            padding: 1rem 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        header nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav a:hover {
+            color: #ffcc00;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: url('img/foro.jpg') no-repeat center center/cover;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.8rem 1.5rem;
+            background: #ffcc00;
+            color: #033003;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #ff9900;
+        }
+
+        .section {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .section h2 {
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            color: #ffcc00;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 3px solid #ffcc00;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #033003;
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#galeria">Galería Navideña</a>
+            <a href="#recetario">Recetario</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="hero" id="inicio">
+        <h1>¡Feliz Navidad!</h1>
+        <p>Descubre recetas, música y la magia de estas fechas.</p>
+        <a href="#recetario" class="button">Ver Recetario 🎄</a>
+    </div>
+
+    <section class="section" id="galeria">
+        <h2>Galería Navideña</h2>
+        <div class="gallery">
+            <img src="img/arbol de navida.jpg" alt="Navidad 1">
+            <img src="img/arbol de navida.jpg" alt="Navidad 2">
+            <img src="img/arbol de navida.jpg" alt="Navidad 3">
+            <img src="img/arbol de navida.jpg" alt="Navidad 4">
+        </div>
+    </section>
+
+    <section class="section" id="recetario">
+        <h2>Recetario Navideño</h2>
+        <p>Descarga las mejores recetas para esta Navidad:</p>
+        <a href="#" class="button">Descargar Recetario 🎁</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Recetario Navideño. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

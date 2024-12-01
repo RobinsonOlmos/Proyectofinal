@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #128308;
+    color: #f7f7f7;
+}
+
+.h1{
+    padding: 0%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-size: 50px;
+    }
+
+.contador{
+    top: 10;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+header {
+    height: 100vh;
+    background-image:  url(img/foro.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fffffffa;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+ }
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 150px;
+    margin: 10px;
+    border: 2px solid #b22222;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: #b22222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/*body {
+    overflow: hidden;
+}
+*/
+.snowflake {
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 1.5em;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-10%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+.music {
+    border: #333 5px;
+}
